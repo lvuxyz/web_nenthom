@@ -1,4 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Citta Clone - Website Nến Thơm Cao Cấp
+
+Website clone của Citta - thương hiệu nến thơm cao cấp Việt Nam, được xây dựng bằng Next.js và Tailwind CSS.
+
+## Công nghệ sử dụng
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [Redux Toolkit](https://redux-toolkit.js.org/) - State management
+- [Headless UI](https://headlessui.com/) - Unstyled UI components
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+
+## Tính năng
+
+- Hiển thị danh sách sản phẩm
+- Trang chi tiết sản phẩm
+- Giỏ hàng
+- Tìm kiếm và lọc sản phẩm
+- Responsive design
+
+## Cài đặt
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/citta-clone.git
+
+# Vào thư mục dự án
+cd citta-clone
+
+# Cài đặt dependencies
+npm install
+
+# Chạy development server
+npm run dev
+```
+
+## Cấu trúc dự án
+
+```
+src/
+  ├── app/             # Next.js App Router
+  ├── components/      # React components
+  ├── store/           # Redux store
+  ├── lib/             # Utility functions
+  ├── types/           # TypeScript types
+  └── styles/          # Global styles
+```
+
+## License
+
+MIT
 
 ## Getting Started
 
